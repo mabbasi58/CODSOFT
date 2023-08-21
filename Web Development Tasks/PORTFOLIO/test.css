@@ -1,0 +1,206 @@
+/* Reset some default styles to ensure consistent appearance */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.logo {
+    height: 60px;
+    width: 15rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* About section styles */
+.profile {
+    text-align: left;
+    padding: 2rem;
+}
+
+.profile img {
+    border-radius: 50%;
+    max-width: 340px;
+    float: right;
+}
+
+
+.profile h1{
+    font-size: 30px;
+    margin-left: 2rem;
+}
+
+/* Skills section styles */
+.skills {
+    padding: 2rem;
+}
+
+.skills h2 {
+    margin-bottom: 1rem;
+}
+.progress {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+  
+  .progress-bar {
+    background-color: #e0d494;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  
+  
+  
+  
+  
+  
+
+
+/* Projects section styles */
+.project {
+    
+    display: inline-block;
+    width: 360px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    
+    margin: 10px 10px 10px 50px;
+
+    padding: 10px;
+    text-align: center;
+}
+#projects h2{
+    margin-left: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+    
+}
+
+.project p {
+    font-size: 14px;
+}
+
+
+/* Resume section styles */
+.resume {
+    padding: 2rem;
+}
+
+/* Style for the Contact Section */
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    fill: #333;
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-text {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
+
+
+/* Footer styles */
+/* Style for the Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
