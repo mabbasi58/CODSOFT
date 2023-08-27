@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My First Andriod Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Email">Name</string>
+    <string name="Name">Email</string>
+</resources>
